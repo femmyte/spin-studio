@@ -15,6 +15,7 @@ module.exports = {
 			colors: {
 				primaryYellow: '#F4C20D',
 				naturalWhite: '#F3F5FA',
+				footerWhite: '#CFD3D7',
 				secondaryBlack: '#101010',
 			},
 		},
