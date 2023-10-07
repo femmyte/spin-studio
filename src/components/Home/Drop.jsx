@@ -14,8 +14,8 @@ const Card = ({ date, title, brand }) => (
 );
 const Drop = () => {
 	return (
-		<section className='pt-[8rem] pb-[10.5rem] bg-black px-[7.44rem]'>
-			<h2 className='font-[700] text-naturalWhite leading-normal text-center mb-[4rem] text-[4rem]'>
+		<section className='py-[3rem] md:pt-[8rem] md:pb-[10.5rem] bg-black px-4 md:px-[7.44rem]'>
+			<h2 className='font-[700] text-naturalWhite leading-normal text-center mb-[4rem] text-[3rem] md:text-[4rem]'>
 				The Drop
 			</h2>
 			<div className='grid grid-cols-1 md:grid-cols-3 gap-y-[4rem] gap-x-[5rem]'>

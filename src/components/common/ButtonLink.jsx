@@ -6,8 +6,8 @@ const ButtonLink = ({ text, link, color }) => {
 		<Link
 			href={link ? link : '#'}
 			className={`${
-				color ? `text-${color}` : 'text-white'
-			} rounded-[7.29444rem] py-[0.75rem] px-4 border border-primaryYellow `}
+				color ? `text-${color} hover:text-black` : 'text-white'
+			} rounded-[7.29444rem] py-[0.75rem] px-4 border border-primaryYellow hover:bg-primaryYellow hover:text-black `}
 		>
 			{text}
 		</Link>
