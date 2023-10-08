@@ -4,7 +4,7 @@ import { AiOutlineArrowDown } from 'react-icons/ai';
 import ButtonLink from '../common/ButtonLink';
 const Experience = () => {
 	return (
-		<section className='bg-[#EDEDED] pb-[5.6rem]'>
+		<section className='bg-[#EDEDED] pb-[5.6rem] overflow-x-hidden'>
 			<div className='flex flex-col justify-center items-center '>
 				<div className='flex flex-col justify-center items-center bg-white rounded-full mt-[2rem] w-[3rem] md:w-[6rem] h-[3rem] md:h-[6rem]'>
 					<AiOutlineArrowDown className='text-[20px] md:text-[5opx] animate-bounce' />
