@@ -33,7 +33,7 @@ const Header = ({ children }) => {
 					} text-center px-4  py-[3.12rem] bg-black  flex flex-col justify-center md:justify-start `}
 				>
 					<div
-						className={`h-screen md:h-full flex flex-col justify-center`}
+						className={`h-[65vh] md:h-full flex flex-col justify-center`}
 					>
 						<h1
 							className={`${tilt.className} ${
