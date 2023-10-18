@@ -24,6 +24,8 @@ module.exports = {
 			serif: ['Merriweather', 'serif'],
 			roboto: 'Roboto',
 			oswald: 'Oswald',
+			poppins: 'poppins',
+			tilt: 'Tilt Neon',
 		},
 	},
 	plugins: [],
