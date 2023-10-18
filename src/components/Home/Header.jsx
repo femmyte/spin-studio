@@ -32,7 +32,9 @@ const Header = ({ children }) => {
 							: 'col-span-full md:px-[6rem]'
 					} text-center px-4  py-[3.12rem] bg-black  flex flex-col justify-center md:justify-start `}
 				>
-					<div className={`h-full flex flex-col justify-center`}>
+					<div
+						className={`h-screen md:h-full flex flex-col justify-center`}
+					>
 						<h1
 							className={`${tilt.className} ${
 								showSidebar
@@ -46,7 +48,7 @@ const Header = ({ children }) => {
 							</span>
 						</h1>
 					</div>
-					<div className={`${showSidebar ? 'mt-0' : 'mt-[3rem]'}`}>
+					<div className={`${showSidebar ? 'md:mt-0' : 'mt-[3rem]'}`}>
 						<ButtonLink text={'VIEW WORK'} link={'#'} />
 					</div>
 				</header>

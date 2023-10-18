@@ -5,7 +5,7 @@ import { AiFillCloseCircle, AiOutlineClose } from 'react-icons/ai';
 import { PiCaretLeftBold, PiCaretRightBold } from 'react-icons/pi';
 
 const MainSidebar = ({ handleOpen, handleShowServiceBar }) => (
-	<aside className='w-full flex flex-col justify-between h-full mb-0 p-0'>
+	<aside className='w-full flex flex-col justify-between h-screen md:h-full mb-0 p-0'>
 		<div className=''>
 			<div className='flex justify-end'>
 				<div
@@ -20,14 +20,14 @@ const MainSidebar = ({ handleOpen, handleShowServiceBar }) => (
 					Spin<span className='text-secondaryBlack'>D</span>
 				</p>
 			</div>
-			<div className='flex items-center h-[60%] md:h-[70vh] ml-[2rem]'>
+			<div className='flex items-center h-[70%] md:h-[70vh] ml-[2rem]'>
 				<ul>
 					<li className='mb-[0.62rem]'>
 						<Link
 							href={'/'}
 							className='text-[1rem] md:text-[1.375rem] text-naturalWhite font-[400] lr leading-normal'
 						>
-							Home
+							HOME
 						</Link>
 					</li>
 
@@ -75,7 +75,7 @@ const MainSidebar = ({ handleOpen, handleShowServiceBar }) => (
 	</aside>
 );
 const Servicesidebar = ({ handleShowServiceBar }) => (
-	<aside className='w-full h-full flex flex-col justify-center px-[2rem]'>
+	<aside className='w-full h-screen md:h-full flex flex-col justify-center px-[2rem]'>
 		<button
 			className='flex items-center mb-[2rem] '
 			onClick={handleShowServiceBar}
