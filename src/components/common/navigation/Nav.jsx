@@ -1,32 +1,39 @@
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 import ButtonLink from '../ButtonLink';
 import { FiMenu } from 'react-icons/fi';
+import { AiOutlineClose } from 'react-icons/ai';
 
 const Nav = ({ handleOpen }) => {
 	return (
-		<div className='flex justify-between items-center px-4 md:px-[6.25rem] py-[1.56rem] bg-black'>
-			<Image
-				src={'/images/logo.svg'}
-				alt='Spin studio logo'
-				height={40}
-				width={130}
-			/>
-			<div className='flex gap-x-[1.5rem] items-center'>
-				<div className='hidden md:block'>
-					<ButtonLink text={'START A PROJECT'} link={'#'} />
-				</div>
+		<>
+			<div
+				className={`flex justify-between items-center px-4 md:px-[1.95rem] py-[1.44rem] z-[100]`}
+			>
+				<Image
+					src={'/images/logo.png'}
+					alt='Spin studio logo'
+					height={49}
+					width={71}
+				/>
+
 				<div
-					className='h-[3.5rem] w-[3.5rem] flex justify-center items-center bg-primaryYellow rounded-full'
+					className='flex gap-x-[1rem] items-center'
 					onClick={handleOpen}
 				>
-					{/* <span className='text-4 font-[700] '> */}
-					<FiMenu size={30} className='text-white' />
-					{/* </span> */}
+					{/* <div className='hidden md:block'>
+					<ButtonLink text={'START A PROJECT'} link={'#'} />
+				</div> */}
+					<span className='text-4 font-[700] '>Menu</span>
+					<div className='p-[0.6rem] flex justify-center items-center border border-black bg-white rounded-full'>
+						<FiMenu size={30} className='text-black' />
+						{/* </span> */}
+					</div>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 

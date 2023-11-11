@@ -5,7 +5,7 @@ import { AiFillCloseCircle, AiOutlineClose } from 'react-icons/ai';
 import { PiCaretLeftBold, PiCaretRightBold } from 'react-icons/pi';
 
 const MainSidebar = ({ handleOpen, handleShowServiceBar }) => (
-	<aside className='w-full flex flex-col justify-between h-screen mb-0 p-0'>
+	<aside className='w-full flex flex-col justify-between h-full mb-0 p-0'>
 		<div className=''>
 			<div className='flex justify-end'>
 				<div
@@ -33,7 +33,7 @@ const MainSidebar = ({ handleOpen, handleShowServiceBar }) => (
 
 					<li className='mb-[0.62rem]'>
 						<Link
-							href={'/'}
+							href={'/about'}
 							className='text-[1rem] md:text-[1.375rem] text-naturalWhite font-[400] lr leading-normal'
 						>
 							ABOUT

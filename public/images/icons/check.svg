@@ -1,0 +1,13 @@
+<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="feather:check-circle" clip-path="url(#clip0_2447_15582)">
+<g id="Group">
+<path id="Vector" d="M14.6667 7.88625V8.49958C14.6659 9.9372 14.2004 11.336 13.3396 12.4875C12.4788 13.6389 11.2689 14.4812 9.89028 14.8889C8.51166 15.2965 7.03821 15.2475 5.68969 14.7493C4.34116 14.2511 3.18981 13.3303 2.40735 12.1243C1.62488 10.9183 1.25323 9.49163 1.34783 8.05713C1.44242 6.62263 1.99818 5.25714 2.93223 4.1643C3.86628 3.07146 5.12856 2.30984 6.53083 1.99301C7.9331 1.67619 9.40022 1.82114 10.7134 2.40625" stroke="#F4C20D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M14.6667 3.16602L8 9.83935L6 7.83935" stroke="#F4C20D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_2447_15582">
+<rect width="16" height="16" fill="white" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
+</svg>

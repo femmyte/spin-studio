@@ -17,6 +17,7 @@ module.exports = {
 				naturalWhite: '#F3F5FA',
 				footerWhite: '#CFD3D7',
 				secondaryBlack: '#101010',
+				cardbg: 'rgba(232, 10, 140, 0.06)',
 			},
 		},
 		fontFamily: {
