@@ -3,8 +3,8 @@ import React from 'react';
 
 const Images = () => {
 	return (
-		<div className='px-[8rem]'>
-			<div className='flex gap-x-[3rem] items-end'>
+		<div className='px-4 md:px-[8rem] mt-8 md:mt-0'>
+			<div className='flex flex-col md:flex-row gap-y-5 gap-x-[3rem] items-end'>
 				<Image
 					src={'/images/about/small.png'}
 					alt='img'
@@ -30,7 +30,7 @@ const Images = () => {
 					height={518}
 				/>
 			</div>
-			<div className='flex gap-x-[3rem] mt-[3rem]  justify-end'>
+			<div className='flex flex-col md:flex-row gap-y-5 gap-x-[3rem] mt-[3rem]  justify-end'>
 				<Image
 					src={'/images/about/mid.png'}
 					alt='img'

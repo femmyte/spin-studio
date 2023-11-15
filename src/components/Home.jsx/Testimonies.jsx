@@ -12,7 +12,7 @@ const Testimonies = () => {
 				Kawme Johnson, KwamePrep CEO
 			</p>
 			<h1
-				className={`${handlee.className} text-[#242424] text-center text-[3.25rem] font-[400] leading-[4.1875rem]`}
+				className={`${handlee.className} text-[#242424] text-center text-[1.6rem] md:text-[3.25rem] font-[400] leading-[2.5rem] md:leading-[4.1875rem]`}
 			>
 				The superb organization around the production, combined with the
 				outstanding professionalism of the entire team was at the core

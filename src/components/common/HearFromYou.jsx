@@ -8,14 +8,14 @@ const ibm = IBM_Plex_Sans({
 });
 const HearFromYou = () => {
 	return (
-		<div className='w-screen h-[19rem] px-[1.9rem] py-[1.81rem] overflow-hidden'>
-			<div className='border border-dashed border-[#c4c4c4] h-[85.5rem] w-[85.5rem] rounded-[87.5rem] mx-auto flex justify-center'>
-				<div className=''>
-					<p className='mt-[3.12rem] text-[#666] text-[1.25rem] font-[500] leading-[155.687%] mb-[0.75rem] text-center'>
+		<div className='w-screen h-[19rem] py-[1.81rem] overflow-hidden'>
+			<div className='border-[2px] border-dashed border-[#c4c4c4] h- h-[85.5rem] w-full md:w-[85.5rem] rounded-[87.5rem] mx-auto flex justify-center'>
+				<div className='px-[1.9rem] '>
+					<p className='mt-[3.12rem] text-[#666] text-[1rem] md:text-[1.25rem] font-[500] leading-[155.687%] mb-[0.75rem] text-center'>
 						Let us in on your project
 					</p>
 					<p
-						className={`text-secondaryBlack text-[1.625rem] font-[500] leading-[160%] capitalize ${ibm.className} text-center`}
+						className={`text-secondaryBlack text-[1.25rem] md:text-[1.625rem] font-[500] leading-[160%] capitalize ${ibm.className} text-center`}
 					>
 						We want to hear from you
 					</p>
@@ -29,7 +29,7 @@ const HearFromYou = () => {
 							/>
 						</Link>
 					</div>
-					<p className='w-[34.875rem] text-[#121212] text-[1rem] font-[400] leading-[216.68%] tracking-wide mx-auto text-center'>
+					<p className='w-full md:w-[34.875rem] text-[#121212] text-[1rem] font-[400] leading-[216.68%] tracking-wide mx-auto text-center'>
 						We help to nurture every business imaginations and give
 						life to ideas that can transform brands into works of
 						art.

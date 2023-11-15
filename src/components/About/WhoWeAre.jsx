@@ -9,7 +9,7 @@ const ibm = IBM_Plex_Sans({
 
 const ValueCard = ({ title, text }) => {
 	return (
-		<div className='px-[2rem] py-[1.5rem] bg-white rounded-[1.5625rem] shadow-md flex flex-col justify-center items-center w-[24.6875rem]'>
+		<div className='px-[2rem] py-[1.5rem] bg-white rounded-[1.5625rem] shadow-md flex flex-col justify-center items-center w-full md:w-[24.6875rem]'>
 			<Image
 				src={'/images/icons/pen-tool.svg'}
 				height={'32'}
@@ -42,14 +42,14 @@ const TeamCard = () => {
 };
 const WhoWeAre = () => {
 	return (
-		<section className=' py-[3.44rem]'>
+		<section className=' py-[2rem] md:py-[3.44rem]'>
 			<div
-				className={`${ibm.className} flex flex-col items-center justify-center px-4 md:px-[10.27rem] py-[3.81rem] px-[7.69rem]`}
+				className={`${ibm.className} flex flex-col items-center justify-center px-4 md:px-[10.27rem] py-[3.81rem] md:px-[7.69rem]`}
 			>
-				<h1 className='text-[4rem] text-secondaryBlack text-center font-[700] leading-[139%] capitalize tracking-[0.1rem]'>
+				<h1 className='text-[2.5rem] md:text-[4rem] text-secondaryBlack text-center font-[700] leading-[139%] capitalize tracking-[0.1rem]'>
 					Who We Are
 				</h1>
-				<p className='text-[1.5625rem] text-secondaryBlack text-center font-[400] leading-[155.687%] capitalize  mt-[2rem] tracking-[0.03906rem]'>
+				<p className='text-[1.2rem] md:text-[1.5625rem] text-secondaryBlack text-center font-[400] md:leading-[216.687%]  leading-[160.3%] mt-[2rem] tracking-[0.03906rem]'>
 					Spin is a digital creative branding agency that combines
 					creativity, innovation, technology and industry knowledge to
 					help businesses create a unique brand identity that stands
@@ -58,7 +58,7 @@ const WhoWeAre = () => {
 					transform brands into works of art.
 				</p>
 			</div>
-			<div className='pl-[7.69rem]'>
+			<div className='pl-3 md:pl-[7.69rem]'>
 				<h1 className='text-black text-[1.5rem] font-[500] leading-[170%] mb-[3rem]'>
 					Our Team
 				</h1>
@@ -73,11 +73,11 @@ const WhoWeAre = () => {
 					<TeamCard />
 				</div>
 			</div>
-			<div className='px-[7.69rem] mt-[3rem]'>
+			<div className='px-4 md:px-[7.69rem] mt-[3rem]'>
 				<h1 className='text-black text-[1.5rem] font-[500] leading-[170%] mb-[3rem]'>
 					Our Values
 				</h1>
-				<div className='flex gap-x-[1rem]'>
+				<div className='flex flex-col md:flex-row  gap-[1rem]'>
 					<ValueCard
 						title={'Creativity and Innovation'}
 						text={

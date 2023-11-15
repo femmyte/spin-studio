@@ -71,7 +71,7 @@ const services = [
 ];
 const ServicesComponent = () => {
 	return (
-		<div className='px-[14rem] py-[4.12rem] flex flex-col items-center justify-center gap-y-[4rem]'>
+		<div className='z-10 px-5 md:px-[10.62rem]  flex flex-col items-center justify-center gap-y-[4rem]'>
 			{services.map((service, i) => (
 				<div key={i}>
 					<ServiceCard services={service} />

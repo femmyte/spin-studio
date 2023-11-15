@@ -19,6 +19,7 @@ const ABOUT = () => {
 			<Images />
 			<WhoWeAre />
 			<HearFromYou />
+			<div className='h-[6.31rem] w-full'></div>
 			<Footer />
 		</div>
 	);

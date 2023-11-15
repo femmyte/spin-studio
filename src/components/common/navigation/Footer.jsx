@@ -1,13 +1,25 @@
 import Image from 'next/image';
 import React from 'react';
 import { AiFillMail, AiOutlineCopyrightCircle } from 'react-icons/ai';
-import { MdOutlineLocationOn } from 'react-icons/md';
-import { BsTelephoneFill } from 'react-icons/bs';
+import {
+	MdMailOutline,
+	MdOutlineLocationOn,
+	MdOutlinePhone,
+} from 'react-icons/md';
+import { FaInstagram } from 'react-icons/fa';
+import { Roboto } from 'next/font/google';
+
+const roboto = Roboto({
+	subsets: ['latin'],
+	weight: ['300', '400', '500', '700'],
+});
 const Footer = () => {
 	return (
-		<footer className='bg-black px-4 md:px-[5.25rem] pt-[5.5rem] pb-[3.4rem]'>
+		<footer
+			className={`${roboto.className} bg-black px-4 md:px-[5.25rem] pt-[5.5rem] pb-[3.4rem]`}
+		>
 			<section className='flex flex-col md:flex-row justify-between'>
-				<div className='w-full md:w-[13.635rem]'>
+				<div className='w-full md:w-[18rem]'>
 					<Image
 						src={'/images/logo.svg'}
 						alt='spinstudio logo'
@@ -81,7 +93,7 @@ const Footer = () => {
 						<input
 							type='email'
 							placeholder='Enter Your Email'
-							className='border border-primaryYellow bg-transparent h-[3.5rem] w-[18.5rem] pl-3 text-footerWhite '
+							className='border border-primaryYellow bg-[#1D1600] h-[3.5rem] w-full md:w-[18.5rem] pl-3 text-footerWhite '
 						/>
 						<button className='px-[3rem] py-4 text-[0.875rem] font-[500] leading-[1.3125rem] text-secondaryBlack bg-primaryYellow rounded-[0.5rem]'>
 							Subscribe
@@ -97,33 +109,41 @@ const Footer = () => {
 						<div className='h-[2.5rem] w-[2.5rem] flex justify-center items-center bg-primaryYellow rounded-full'>
 							<span className='text-4 font-[700] '>f</span>
 						</div>
+						<div className='h-[2.5rem] w-[2.5rem] flex justify-center items-center bg-primaryYellow rounded-full'>
+							{/* <span className='text-4 font-[700] '>f</span> */}
+							<FaInstagram />
+						</div>
 					</div>
 				</div>
 			</section>
 			<div className='w-full h-[1px] bg-primaryYellow my-[2.5rem]'></div>
-			<section className='flex flex-col md:flex-row gap-y-6 justify-between items-center'>
-				<div className='flex items-center gap-x-4 w-[14rem]'>
+			<section className='flex flex-col md:flex-row gap-y-6 justify-between items-start'>
+				<div className='flex items-center gap-x-2 w-[14rem]'>
 					<AiOutlineCopyrightCircle className='text-white text-[1.5rem]' />
 					<p className='text-footerWhite font-[400] text-[1rem] leading-[1.5rem]'>
 						Spin Designs{' '}
 					</p>
 				</div>
-				<div className='flex flex-col md:flex-row gap-y-6 md:items-center gap-x-[2.5rem]'>
-					<div className='flex items-center gap-x-4 w-[14rem]'>
-						<MdOutlineLocationOn className='text-primaryYellow text-[3.5rem]' />
-						<p className='text-footerWhite font-[400] text-[1rem] leading-[1.5rem]'>
+				<div className='flex flex-col md:flex-row gap-y-6 md:items-start z gap-x-[2.5rem]'>
+					<div className='flex items-start gap-x-4 '>
+						<img src='/images/icons/location_on.svg' />
+						{/* <IoLocationOutline
+							size={40}
+							className='text-primaryYellow '
+						/> */}
+						<p className='text-footerWhite font-[400] text-[1rem] leading-[1.5rem] w-[11.75rem]'>
 							House 4B, Seidu Ayodeji Balogun Street, Ibara
 							Housing Estate, Abeokuta
 						</p>
 					</div>
 					<div className='flex items-center gap-x-4'>
-						<AiFillMail className='text-primaryYellow text-[1.5rem]' />
+						<MdMailOutline className='text-primaryYellow text-[1.5rem]' />
 						<p className='text-footerWhite font-[400] text-[1rem] leading-[1.5rem]'>
 							hello@spindesigns.io
 						</p>
 					</div>
 					<div className='flex items-center gap-x-4'>
-						<BsTelephoneFill className='text-primaryYellow text-[1.5rem]' />
+						<MdOutlinePhone className='text-primaryYellow text-[1.5rem]' />
 						<p className='text-footerWhite font-[400] text-[1rem] leading-[1.5rem]'>
 							+234 8037782683
 						</p>
