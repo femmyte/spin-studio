@@ -1,5 +1,6 @@
 import Edtech from '@/components/Home.jsx/Edtech';
 import Testimonies from '@/components/Home.jsx/Testimonies';
+import TestimonialSlider from '@/components/TestimonialSlider';
 import Header from '@/components/common/Header';
 import HearFromYou from '@/components/common/HearFromYou';
 import Footer from '@/components/common/navigation/Footer';
@@ -15,7 +16,8 @@ const HomePage = () => {
 				}
 			/>
 			<Edtech />
-			<Testimonies />
+			{/* <Testimonies /> */}
+			<TestimonialSlider />
 			<HearFromYou />
 			<Footer />
 		</>
