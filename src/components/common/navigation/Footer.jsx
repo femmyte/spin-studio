@@ -111,13 +111,13 @@ const Footer = () => {
 							</a>
 						</div>
 						<div className='h-[2.5rem] w-[2.5rem] flex justify-center items-center bg-primaryYellow rounded-full'>
-							<a
+							{/* <a
 								href='https://instagram.com/spindesignss?igshid=MTNiYzNiMzkwZA%3D%3D&utm_source=qr'
 								target='_blank'
 								rel='noopener '
-							>
-								<span className='text-4 font-[700] '>In</span>
-							</a>
+							> */}
+							<span className='text-4 font-[700] '>In</span>
+							{/* </a> */}
 						</div>
 						<div className='h-[2.5rem] w-[2.5rem] flex justify-center items-center bg-primaryYellow rounded-full'>
 							<a
