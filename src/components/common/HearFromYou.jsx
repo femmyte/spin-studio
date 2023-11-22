@@ -8,7 +8,7 @@ const ibm = IBM_Plex_Sans({
 });
 const HearFromYou = () => {
 	return (
-		<div className='w-screen h-[19rem] py-[1.81rem] overflow-hidden'>
+		<div className='w-screen h-[19rem] pt-[1.81rem] overflow-hidden'>
 			<div className='border-[2px] border-dashed border-[#c4c4c4] h- h-[85.5rem] w-full md:w-[85.5rem] rounded-[87.5rem] mx-auto flex justify-center'>
 				<div className='px-[1.9rem] '>
 					<p className='mt-[3.12rem] text-[#666] text-[1rem] md:text-[1.25rem] font-[500] leading-[155.687%] mb-[0.75rem] text-center'>

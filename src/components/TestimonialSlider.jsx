@@ -15,15 +15,15 @@ const testimonialData = [
 	},
 	{
 		id: 2,
-		author: 'Joshua Segun',
+		author: 'Azzim Aina, Boltpets CEO',
 		message:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ex id recusandae eligendi mollitia veritatis vitae voluptate saepe, magnam dolorum inventore atque. Corporis quasi officiis dolorum voluptatibus adipisci deserunt illo?',
+			"The remarkable efficiency in production coordination, coupled with the exceptional professionalism exhibited by the entire team, formed the foundation of our project's triumph",
 	},
 	{
 		id: 3,
-		author: 'Ajangbeyo Aluko',
+		author: 'Tosin Fakile, DevCent CEO',
 		message:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ex id recusandae eligendi mollitia veritatis vitae voluptate saepe, magnam dolorum inventore atque. Corporis quasi officiis dolorum voluptatibus adipisci deserunt illo?',
+			'The superb organization around the production, combined with the outstanding professionalism of the entire team was at the core of the success of our project.',
 	},
 ];
 
@@ -53,9 +53,9 @@ const TestimonialSlider = () => {
 	}, [currentSlide]);
 
 	return (
-		<div className='h-[80vh] my-[6.5rem]  w-full md:w-[76.75rem] mx-auto'>
+		<div className='h-[55vh] max-h-[80vh] my-[6.5rem]  w-full md:w-[76.75rem] mx-auto relative flex flex-col justify-between'>
 			{/* <div className='bg-white h-full  p-4 relative'> */}
-			<div className='mb-4 flex items-center justify-center h-[80%] relative'>
+			<div className='mb-4 flex items-center justify-center min-h-max relative'>
 				{testimonialData.map((testimonial, index) => (
 					<div
 						key={index}
@@ -74,7 +74,7 @@ const TestimonialSlider = () => {
 					</div>
 				))}
 			</div>
-			<div className='flex justify-center mb-4'>
+			<div className='flex justify-center '>
 				{testimonialData.map((_, index) => (
 					<button
 						key={index}

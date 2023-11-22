@@ -18,8 +18,8 @@ const EdtechCard = ({ second, gray }) => {
 		>
 			<div className='flex items-center justify-between mb-[0.56rem]'>
 				<div className=''>
-					<p className='text-[#484848] text-[1rem] font-[500] leading-[155.687%] tracking-[0.025rem] mb-[0.21rem] text-left'>
-						Edctech
+					<p className='text-[#484848] text-[1rem] font-[500] leading-[155.687%] tracking-[0.025rem] mb-[0.21rem] uppercase text-left'>
+						Edtech
 					</p>
 					<p
 						className={`${roboto.className} text-[#484848] text-center font-roboto text-[1.75rem] font-[500] leading-[155.687%] tracking-[0.04375rem]`}
@@ -51,13 +51,13 @@ const EdtechCard = ({ second, gray }) => {
 					</p>
 				</div>
 				<div className='mt-[1.69rem] flex gap-x-[2.37rem]'>
-					<p className='text-black font-roboto text-[0.875rem] font-[400] leading-[155.687%] tracking-[0.02188rem]'>
+					<p className='text-black font-roboto text-[0.875rem] font-[400] leading-[155.687%] tracking-[0.02188rem] bg-white/30 py-[0.28181rem] px-[0.56363rem] rounded-[7.04569rem]'>
 						Website
 					</p>
-					<p className='text-black font-roboto text-[0.875rem] font-[400] leading-[155.687%] tracking-[0.02188rem]'>
+					<p className='text-black font-roboto text-[0.875rem] font-[400] leading-[155.687%] tracking-[0.02188rem]  bg-white/30 py-[0.28181rem] px-[0.56363rem] rounded-[7.04569rem]'>
 						UX/UI
 					</p>
-					<p className='text-black font-roboto text-[0.875rem] font-[400] leading-[155.687%] tracking-[0.02188rem]'>
+					<p className='text-black font-roboto text-[0.875rem] font-[400] leading-[155.687%] tracking-[0.02188rem]  bg-white/30 py-[0.28181rem] px-[0.56363rem] rounded-[7.04569rem]'>
 						Branding
 					</p>
 				</div>

@@ -9,7 +9,7 @@ const ibm = IBM_Plex_Sans({
 const ServiceCard = ({ services }) => {
 	const { title, description, image, items } = services;
 	return (
-		<div className='flex flex-col-reverse md:flex-row md:gap-x-[1.44rem] items-center py-4 md:py-[4.5rem]'>
+		<div className='flex flex-col-reverse md:flex-row md:gap-x-[1.44rem] items-center py-4 md:py-[4.5rem]  shadow rounded-[1.25rem] p-4'>
 			<Animation style='fade-right' placement='top-bottom' header>
 				<article className='w-full flex-1'>
 					<h3

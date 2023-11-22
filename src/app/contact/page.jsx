@@ -238,15 +238,17 @@ const Contact = () => {
 							<p className='mt-[1.5rem] text-[#f3f5fa] text-[1.25rem] font-[700] leading-[140%] tracking-[0.25rem] text-center md:text-left'>
 								Your Request
 							</p>
-							<p className='mt-[0.75rem] mb-[0.5rem] text-[#5B5B5B] text-[1.25rem] font-[400] leading-[180%] capitalize'>
-								Services
-							</p>
-							<div className='flex flex-wrap gap-y-4 justify-center md:justify-normal items-center gap-x-[1rem]'>
-								<Item text={'UI/UX'} />
-								<Item text={'Brand Design'} />
-								<Item text={'Web Development'} />
-								<Item text={'Mobile Development'} />
-								<Item text={'Software Development'} />
+							<div className='px-4'>
+								<p className='mt-[0.75rem] mb-[0.5rem] text-[#5B5B5B] text-[1.25rem] font-[400] leading-[180%] capitalize'>
+									Services
+								</p>
+								<div className='flex flex-wrap gap-y-4 justify-center md:justify-normal items-center gap-x-[1rem]'>
+									<Item text={'UI/UX'} />
+									<Item text={'Brand Design'} />
+									<Item text={'Web Development'} />
+									<Item text={'Mobile Development'} />
+									<Item text={'Software Development'} />
+								</div>
 							</div>
 							<div className='mt-4 md:mt-0'>
 								<textarea

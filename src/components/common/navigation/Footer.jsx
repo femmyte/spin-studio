@@ -8,6 +8,7 @@ import {
 } from 'react-icons/md';
 import { FaInstagram } from 'react-icons/fa';
 import { Roboto } from 'next/font/google';
+import Link from 'next/link';
 
 const roboto = Roboto({
 	subsets: ['latin'],
@@ -27,7 +28,7 @@ const Footer = () => {
 						width={104}
 						className='mx-auto md:mx-0'
 					/>
-					<p className='text-footerWhite font-[400] text-[1rem] leading-[1.5rem] mt-[1.62rem] text-justify'>
+					<p className='text-footerWhite font-[400] text-[1rem] leading-[1.5rem] mt-[1.62rem]'>
 						We help businesses have a lasting impact on customers by
 						crafting captivating Designs and Development that stands
 						out.
@@ -68,13 +69,13 @@ const Footer = () => {
 								Portfolio
 							</li>
 							<li className='text-footerWhite font-[500] text-[1rem] leading-[1.5rem] mb-[1rem]'>
-								Services
+								<Link href={'/services'}>Services</Link>
 							</li>
 							<li className='text-footerWhite font-[500] text-[1rem] leading-[1.5rem] mb-[1rem]'>
-								About Us
+								<Link href={'/about'}>About Us</Link>
 							</li>
 							<li className='text-footerWhite font-[500] text-[1rem] leading-[1.5rem] mb-[1rem]'>
-								Contact Us
+								<Link href={'/contact'}>Contact Us</Link>
 							</li>
 						</ul>
 					</div>
@@ -101,17 +102,41 @@ const Footer = () => {
 					</div>
 					<div className='flex justify-center md:justify-start mt-[1.38rem] gap-x-4'>
 						<div className='h-[2.5rem] w-[2.5rem] flex justify-center items-center bg-primaryYellow rounded-full'>
-							<span className='text-4 font-[700] '>X</span>
+							<a
+								href='http://twitter.com/spindesigns'
+								target='_blank'
+								rel='noopener '
+							>
+								<span className='text-4 font-[700] '>X</span>
+							</a>
 						</div>
 						<div className='h-[2.5rem] w-[2.5rem] flex justify-center items-center bg-primaryYellow rounded-full'>
-							<span className='text-4 font-[700] '>In</span>
+							<a
+								href='https://instagram.com/spindesignss?igshid=MTNiYzNiMzkwZA%3D%3D&utm_source=qr'
+								target='_blank'
+								rel='noopener '
+							>
+								<span className='text-4 font-[700] '>In</span>
+							</a>
 						</div>
 						<div className='h-[2.5rem] w-[2.5rem] flex justify-center items-center bg-primaryYellow rounded-full'>
-							<span className='text-4 font-[700] '>f</span>
+							<a
+								href='https://www.facebook.com/spindesignss?mibextid=LQQJ4d'
+								target='_blank'
+								rel='noopener '
+							>
+								<span className='text-4 font-[700] '>f</span>
+							</a>
 						</div>
 						<div className='h-[2.5rem] w-[2.5rem] flex justify-center items-center bg-primaryYellow rounded-full'>
 							{/* <span className='text-4 font-[700] '>f</span> */}
-							<FaInstagram />
+							<a
+								href='https://instagram.com/spindesignss?igshid=MTNiYzNiMzkwZA%3D%3D&utm_source=qr'
+								target='_blank'
+								rel='noopener '
+							>
+								<FaInstagram />
+							</a>
 						</div>
 					</div>
 				</div>

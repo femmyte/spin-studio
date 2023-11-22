@@ -7,7 +7,7 @@ const handlee = Handlee({
 });
 const Testimonies = () => {
 	return (
-		<div className='py-[6.5rem]  w-full md:w-[76.75rem] mx-auto'>
+		<div className='pt-[6.5rem]  w-full md:w-[76.75rem] mx-auto'>
 			<p className='mb-[1.5rem] text-black text-[1.5rem] font-[400] leading-normal text-center'>
 				Kawme Johnson, KwamePrep CEO
 			</p>
